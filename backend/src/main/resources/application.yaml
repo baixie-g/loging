@@ -4,3 +4,8 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/loging?useUnicode=true&characterEncoding=utf8
     username: root
     password: abcdefg0+
+
+server:
+  port: 8080
+  servlet:
+    context-path: /GM
